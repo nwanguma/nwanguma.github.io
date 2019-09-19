@@ -1,0 +1,15 @@
+.link {
+  display: inline-block;
+  
+  a {
+    text-decoration: none;
+    color: #999;
+    border: 2px #146da9 solid;
+    padding: .5rem 1.9rem;  
+    box-shadow: 1px 3px 2rem rgb(12, 13, 17);  
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
